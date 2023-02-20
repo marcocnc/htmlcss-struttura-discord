@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(71, 71, 255);
+    height: 1000px;
+}
+
+header > section{
+    background-color: lightblue;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    background-color:lightseagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px;
+    border: 1px solid black;
+    padding: 0 10px;
+    margin: 0 auto;
+    min-height: 50%;
+}
+
+.logo{
+    border: 1px solid black;
+    width: 25%;
+}
+
+nav ul{
+    border: 1px solid black;
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin-right: 15px;
+    width: 50%;
+}
+
+button{
+    border: 1px solid black;
+    width: 25%;
+}
+
+.jumbotron{
+    background-color: yellow;
+}
