@@ -26,6 +26,11 @@ nav{
 main{
     height: 1000px;
 }
+
+footer{
+    height: 1000px;
+    background-color: darkgray;
+}
 /* /GENERAL */
 
 /* HEADER */
@@ -114,7 +119,13 @@ nav ul li a{
 
 .content{
     height: 40%;
-    
+}
+
+.content.special{
+    background-color: orange;
+    width: 20%;
+    height: 50%;
+    border: 1px solid black;
 }
 
 .large{
@@ -129,3 +140,8 @@ nav ul li a{
     border: 1px solid black;
 }
 /* /MAIN */
+
+/* FOOTER */
+.social{
+
+}
