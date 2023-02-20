@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: rgb(71, 71, 255);
+    
     height: 1000px;
 }
 
@@ -13,9 +13,8 @@ header > section{
     background-color: lightblue;
     height: 50px;
     display:flex;
-    justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    
 }
 
 nav{
@@ -74,6 +73,19 @@ nav ul li a{
 }
 
 .jumbotron{
-    background-color: yellow;
+    background-color: rgb(44, 51, 255);
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron .text{
+    height: 60%;
     width: 80%;
+    background-color: red;
+    border: 1px solid black;
+
 }
