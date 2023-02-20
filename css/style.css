@@ -14,7 +14,6 @@ header > section{
     height: 50px;
     display:flex;
     align-items: center;
-    
 }
 
 nav{
@@ -28,8 +27,26 @@ main{
 
 footer{
     min-height: 1000px;
-    
+    background-color: darkgrey;
 }
+
+.menu,
+.logo,
+nav ul,
+.login,
+.jumbotron,
+.jumbotron .text,
+.content.special,
+.large,
+.small,
+.infobox,
+.links,
+.bar.footer,
+.bar.footer span,
+.bar.footer button{
+    border: 1px solid black;
+}
+
 
 
 /* /GENERAL */
@@ -46,19 +63,16 @@ footer{
     align-items: center;
     flex-wrap: wrap;
     width: 70%;
-    border: 1px solid black;
     min-height: 50%;
     line-height: 30px;
 }
 
 .logo{
-    border: 1px solid black;
     width: 25%;
     padding-left: 10px;
 }
 
 nav ul{
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -79,7 +93,6 @@ nav ul li a{
 }
 
 .login{
-    border: 1px solid black;
     width: 25%;
     text-align: right;
     padding-right: 10px;
@@ -90,7 +103,6 @@ nav ul li a{
     width: 100%;
     height: 100%;
     min-height: 1000px;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,7 +113,6 @@ nav ul li a{
     min-height: 700px;
     width: 70%;
     background-color: red;
-    border: 1px solid black;
 }
 /* /HEADER */
 
@@ -131,19 +142,16 @@ nav ul li a{
     width: 20%;
     height: 50%;
     min-height: 700px;
-    border: 1px solid black;
 }
 
 .large{
     background-color: rgb(79, 79, 255);
     width: 40%;
-    border: 1px solid black;
 }
 
 .small{
     background-color: lightblue;
     width: 20%;
-    border: 1px solid black;
 }
 /* /MAIN */
 
@@ -161,7 +169,6 @@ nav ul li a{
     min-height: 200px;
     width: 25%;
     background-color: purple;
-    border: 1px solid black;
 }
 
 .links{
@@ -169,14 +176,37 @@ nav ul li a{
     min-height: 200px;
     width: 10%;
     background-color: rgb(255, 0, 255);
-    border: 1px solid black;
+    
 } 
 
 .links ul{
     list-style: none;
 }
 
-.bar .footer{
-    width: 60%;
-    background-color: red;
+.footer-bottom{
+    background-color: purple;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.bar.footer{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    min-height: 50%;
+    line-height: 30px;
+}
+
+.bar.footer span{
+    padding: 0 15px;
+}
+
+.bar.footer button{
+    padding: 0x 15px;
+}
+
